@@ -1,5 +1,15 @@
 #include<bits/stdc++.h>
 using namespace std;
+/*
+You are given two non-empty linked lists representing two non-negative integers. 
+The digits are stored in reverse order, and each of their nodes contains a single digit. 
+Add the two numbers and return the sum as a linked list.
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+
+Sum the numbers of L1 and L2, keep single digit, store the tens digit to the next digit.
+Continuing update the answer node until no tens digit left.
+O(n)
+*/
 struct ListNode {
       int val;
       ListNode *next;
