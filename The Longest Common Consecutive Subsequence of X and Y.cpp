@@ -49,13 +49,11 @@ int findLength(vector<int> a,vector<int> b){
                 c[bi][j]=0;
             else if(a[i]==b[j-1]){
                 c[bi][j] = c[1-bi][j-1]+1;
-                if(c[bi][j] > MXL){
+                if(c[bi][j] > MXL)
                     MXL=c[bi][j];
-                }
             }
-            else{
+            else
                 c[bi][j] = 0;
-            }
         }
     }
     return MXL;
