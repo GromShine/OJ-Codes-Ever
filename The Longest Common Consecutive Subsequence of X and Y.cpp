@@ -1,5 +1,5 @@
 /*
-最长连续子序列/最长连续子数列
+最长公共连续子序列/最长公共连续子数列
 The Longest Common Consecutive Subsequence of X and Y
 Description
 
